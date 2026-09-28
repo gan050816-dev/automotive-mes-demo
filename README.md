@@ -42,6 +42,8 @@
 
 ## 公开内容与运行
 
+建议先看上方的项目效果与演示，再看关键设计，最后通过下表查看源码或运行项目。
+
 | 位置 | 内容 |
 | --- | --- |
 | [src/App.vue](src/App.vue) | 页面、状态管理与交互操作 |
@@ -68,6 +70,16 @@ npm.cmd run preview
 ```
 
 Tauri 开发或打包还需要 Rust、Cargo、WebView2 以及带 Windows SDK 的 Visual Studio Build Tools，对应命令为 `npm.cmd run tauri dev` 和 `npm.cmd run tauri build`。
+
+## 课程历史资料
+
+| 资料 | 阅读用途 |
+| --- | --- |
+| [课程答辩旧稿](Carmessys汽车制造MES系统答辩演讲稿.txt) | 保留原课程汇报正文，开头附有与当前实现对应的简短勘误 |
+| [课程讲义文字摘录](_doc_assets/ppt_text.txt) | 第三章人机交互设计原则、第四章视觉认知，共 120 页讲义的摘录，作为设计参考 |
+| [PPT 制作脚本](_doc_assets/build_defense_ppt.mjs)、[课程文档制作脚本](_doc_assets/build_course_doc.py) | 历史材料的制作工具，不属于应用启动流程 |
+
+了解课程背景时可继续阅读这些资料；当前项目成果与实现范围以本页及对应源码为准。PPT 制作脚本会覆盖同名演讲稿，不作为新版文档的生成入口。
 
 ## 当前边界
 
